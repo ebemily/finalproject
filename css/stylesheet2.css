@@ -1,0 +1,130 @@
+body {
+    background-color: #ffd8a5;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+label {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.container {
+    text-align: center;
+}
+.amount {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#ac {
+    font-size: 20px;
+}
+input {
+    border-bottom: 3px solid #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 25px;
+    background-color: #ffd8a5;
+    color: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;  
+  text-align: center;
+}
+
+#cvv {
+    width: 50px;
+    margin-right: 10px;
+}
+
+button {
+    border: 3px solid #ffffff;
+    background-color: #ffd8a5;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+button:hover {
+    border-color: black;
+}
+
+button:focus {
+    border-color: black;
+}
+
+.check {
+    text-align: center;
+}
+
+.btncontainer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.text-sm {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.reviewimg {
+    width: 59.28px;
+    height: 105.39px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.reviewimgcontainer {
+    width: 100px;
+}
+.reviewimgtxt {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    margin-bottom: 25px;
+}
+.editbtn {
+    float: right;
+    margin-right: 25px;
+}
+.payment {
+    margin-top: 40px;
+}
+
+.donate {
+    text-align: center;
+}
+#donate {
+    color: #ffffff;
+}
+.row-main {
+    margin-top: 50px;
+}
+textarea {
+    width: 50%;
+}
